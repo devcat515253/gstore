@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "gstore"
+  "defaultProject": "gstore",
+  "cli": {
+    "analytics": false
+  }
 }
