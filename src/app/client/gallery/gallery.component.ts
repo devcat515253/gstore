@@ -38,4 +38,11 @@ export class GalleryComponent implements OnInit {
     });
   }
 
+  ff() {
+    this.httpClient.get<any>('https://api.privatbank.ua/p24api/pubinfo?exchange4&json&coursid=11').subscribe(res => {
+      console.log('ff', res);
+      this.data = res;
+    });
+  }
+
 }
