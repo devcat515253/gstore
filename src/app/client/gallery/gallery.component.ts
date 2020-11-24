@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
 
@@ -16,9 +16,13 @@ export class GalleryComponent implements OnInit {
   data2: any[] = [];
 
   constructor(
-    private httpClient: HttpClient
+    private httpClient: HttpClient,
+    @Inject(PLATFORM_ID) platformId: string
   ) {
 
+    // alert(platformId);
+    // alert(isPlatformBrowser(platformId));
+    console.log(platformId);
     console.log(environment.production);
   }
 

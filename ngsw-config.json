@@ -12,7 +12,8 @@
           "/manifest.webmanifest",
           "/*.css",
           "/*.js"
-        ]
+        ],
+        "urls": ["https://fonts.googleapis.com/**"]
       }
     },
     {
@@ -24,6 +25,18 @@
           "/assets/**",
           "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
         ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "privatb-api",
+      "urls": ["https://api.privatbank.ua/**"],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxSize": 20,
+        "maxAge": "1h",
+        "timeout": "5s"
       }
     }
   ]
