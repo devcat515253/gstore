@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1606229268135,
+  "timestamp": 1606235252461,
   "index": "/gstore/index.html",
   "assetGroups": [
     {
@@ -18,7 +18,7 @@
         "/gstore/manifest.webmanifest",
         "/gstore/polyfills.bf99d438b005d57b2b31.js",
         "/gstore/runtime.4c26b988e98a4111bfa9.js",
-        "/gstore/styles.7528785d44e461403df8.css"
+        "/gstore/styles.df3d9feab7794d65db57.css"
       ],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
@@ -71,12 +71,12 @@
     "/gstore/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/gstore/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/gstore/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/gstore/index.html": "ef4430acc662a0f48939e15ff57c4091e8afb8b0",
+    "/gstore/index.html": "dc5754c4d12448f9714bfa27f5306cd1ba36f43b",
     "/gstore/main.03ee9691d0de25cd9d73.js": "ded0218c2f69b222fc44157dd780e8f2eab3cb2e",
     "/gstore/manifest.webmanifest": "331c5cfc87c4a06d1c9a6f5a8b324ed40f270c10",
     "/gstore/polyfills.bf99d438b005d57b2b31.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "/gstore/runtime.4c26b988e98a4111bfa9.js": "d136331f176825fa4f8be41e5f4f11498a94f3c3",
-    "/gstore/styles.7528785d44e461403df8.css": "9ba05cadcd1518d41d811a662603eb3a1ecc2eae"
+    "/gstore/styles.df3d9feab7794d65db57.css": "da5dd53c53cb5e5f31c93e4b49f738ce19a340fc"
   },
   "navigationUrls": [
     {
