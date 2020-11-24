@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1605888165464,
+  "timestamp": 1606228487268,
   "index": "/gstore/index.html",
   "assetGroups": [
     {
@@ -11,16 +11,18 @@
         "ignoreVary": true
       },
       "urls": [
-        "/gstore/4.0942be9b0db7a6c39320.js",
+        "/gstore/4.6653bff801724d3cba25.js",
         "/gstore/favicon.ico",
         "/gstore/index.html",
-        "/gstore/main.62e77ee8c7acae18e763.js",
+        "/gstore/main.03ee9691d0de25cd9d73.js",
         "/gstore/manifest.webmanifest",
         "/gstore/polyfills.bf99d438b005d57b2b31.js",
-        "/gstore/runtime.fbb0714b4fe73619cb04.js",
-        "/gstore/styles.09e2c710755c8867a460.css"
+        "/gstore/runtime.ef58e12acaa6e55421b1.js",
+        "/gstore/styles.7528785d44e461403df8.css"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
+      ]
     },
     {
       "name": "assets",
@@ -42,9 +44,24 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "privatb-api",
+      "patterns": [
+        "https:\\/\\/api\\.privatbank\\.ua\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
   "hashTable": {
-    "/gstore/4.0942be9b0db7a6c39320.js": "3b74176df4ba1733d6f47074050a93bda7a81b0e",
+    "/gstore/4.6653bff801724d3cba25.js": "c8179bd6701532317db9324d03b0162920d61cb4",
     "/gstore/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/gstore/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/gstore/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -54,12 +71,12 @@
     "/gstore/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/gstore/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/gstore/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/gstore/index.html": "130d1d0a5c657d464e37bb252392c0e6e1a57903",
-    "/gstore/main.62e77ee8c7acae18e763.js": "b1f1a3740b5c287326ce86ec924f2cc77660f2ab",
+    "/gstore/index.html": "2340c8237b37d0823d86a314c08d5712eec8a49c",
+    "/gstore/main.03ee9691d0de25cd9d73.js": "ded0218c2f69b222fc44157dd780e8f2eab3cb2e",
     "/gstore/manifest.webmanifest": "331c5cfc87c4a06d1c9a6f5a8b324ed40f270c10",
     "/gstore/polyfills.bf99d438b005d57b2b31.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
-    "/gstore/runtime.fbb0714b4fe73619cb04.js": "cda90e983cb0e24aac84e4d50480d4231a0be834",
-    "/gstore/styles.09e2c710755c8867a460.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/gstore/runtime.ef58e12acaa6e55421b1.js": "a5cb2bd9511ab898a4cea80d95a50dee92dd7a79",
+    "/gstore/styles.7528785d44e461403df8.css": "9ba05cadcd1518d41d811a662603eb3a1ecc2eae"
   },
   "navigationUrls": [
     {
